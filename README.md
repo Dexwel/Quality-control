@@ -26,3 +26,7 @@ Line 2 is the raw sequence letters.
 Line 3 begins with a '+' character and is optionally followed by the same sequence identifier (and any description) again.
 
 Line 4 encodes the quality values for the sequence in Line 2, and must contain the same number of symbols as letters in the sequence.
+
+Each sequecne called has it own quality with a string of character signifying poor quality score and alphabet signifying good quality score
+
+!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
